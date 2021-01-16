@@ -6,12 +6,19 @@ namespace MyFirstConsoleApplication
     {
         static void Main(string[] args)
         {
+            int myNumber;
+            bool isMyNameMason;
+
+            string name = null;
+
+            name?.ToString();
+
             //read input from a user
             Console.WriteLine("What is your first name");
             var input = Console.ReadLine();
 
             //strings
-            string name = "Nathan";
+            name = "Nathan";
             char firstLetter = 'N';
 
             //let myInterpolatedString =  `this stuff ${firstLetter}`;
